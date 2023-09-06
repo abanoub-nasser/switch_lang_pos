@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templates id="template" xml:space="preserve">
-    <t t-name="lang_switch_pos.LangMenuItem" owl="1">
+    <t t-name="switch_lang_pos.LangMenuItem" owl="1">
         <div langName="langName" langId="langId" class="change-language-button" t-on-click="onClick">
             <span style="padding-left: 10px;margin-top: 10px;font-size:2rem"><t t-esc='props.langName'/></span>
         </div>

@@ -1,4 +1,4 @@
-odoo.define('lang_switch_pos.LangmenuItem', function(require) {
+odoo.define('switch_lang_pos.LangmenuItem', function(require) {
 	'use strict';
     const PosComponent = require('point_of_sale.PosComponent');
 	const Registries = require('point_of_sale.Registries');
@@ -14,7 +14,7 @@ odoo.define('lang_switch_pos.LangmenuItem', function(require) {
             })
         }
     }
-    LangmenuItem.template = 'lang_switch_pos.LangMenuItem';
+    LangmenuItem.template = 'switch_lang_pos.LangMenuItem';
     Registries.Component.add(LangmenuItem);
     return LangmenuItem;
 

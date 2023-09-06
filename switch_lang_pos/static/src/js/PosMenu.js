@@ -1,4 +1,4 @@
-odoo.define('lang_switch_pos.PosMenu', function(require) {
+odoo.define('switch_lang_pos.PosMenu', function(require) {
 	'use strict';
 	const PosComponent = require('point_of_sale.PosComponent');
 	const Registries = require('point_of_sale.Registries');

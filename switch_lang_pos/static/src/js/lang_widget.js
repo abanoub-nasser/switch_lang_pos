@@ -1,4 +1,4 @@
-odoo.define('lang_switch_pos.multi_uom_widget', function (require) {
+odoo.define('switch_lang_pos.multi_uom_widget', function (require) {
     "use strict";
     const PosComponent = require('point_of_sale.PosComponent');
     const Registries = require('point_of_sale.Registries');
