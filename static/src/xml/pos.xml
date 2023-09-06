@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-name="LangWidget" owl="1">
+         <div class="dropdown-pop">
+                    <div class="dropdown-content" t-if="isPosMenuShown">
+                        <ul t-if="isPosMenuShown" class="options">
+                            <t t-foreach='getPosLangs || []' t-as='lang' t-key="lang.id">
+                                <li class="lang-menu-item">
+                                    <LangmenuItem langName="lang.name" langId="lang.id"/>
+                                </li>
+                            </t>
+                        </ul>
+                    </div>
+                </div>
+    </t>
+
+</templates>
